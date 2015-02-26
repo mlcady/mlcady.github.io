@@ -1,8 +1,6 @@
 body{
 	background-color: #f0f5f5;
-}
-h1, p {
-	text-align: center;
-	font-family: courier new, monospace;
 	color: #c2d6d6;
+	font-family: 'courier new', monospace;
+	text-align: center;
 }
