@@ -1,0 +1,13 @@
+body{
+	background-color: #f0f5f5;
+	color: #c2d6d6;
+	font-family: Helvetica, monospace;
+	text-align: center;
+}
+img {
+	width: 150px;
+	height: 150px;
+	border: 2px solid white;
+	display: inline-block;
+	margin: 20px;
+}
