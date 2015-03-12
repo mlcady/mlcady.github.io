@@ -6,12 +6,6 @@ body{
 	text-align: center;
 }
 img {
-<<<<<<< HEAD
 	width: 350px;
-=======
-	width: 150px;
->>>>>>> origin/master
-	border: 2px solid white;
-	display: inline-block;
-	margin: 20px;
+
 }
