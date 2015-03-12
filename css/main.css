@@ -1,13 +1,6 @@
-* {margin:0;padding:0;box-sizing:border-box;}
-body{
-	background-color: #f0f5f5;
-	color: #c2d6d6;
-	font-family: Helvetica, sans-serif;
-	text-align: center;
-}
-img {
-	width: 300px;
-	display: inline-block;
-	margin: 20px;
-
-}
+body{ body {
+  text-align:center;
+  background: "images/piedmontpark.jpg";
+  background-size: cover;
+  color: #fff;
+  font-family: Helvetica;
