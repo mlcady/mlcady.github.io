@@ -9,5 +9,8 @@ img {
 	width: 300px;
 	display: inline-block;
 	margin: 20px;
-
+}
+hr{
+	width: 20px;
+	color:#c2d6d6;
 }
