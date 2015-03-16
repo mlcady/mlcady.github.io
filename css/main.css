@@ -4,7 +4,7 @@ h1{ font-size: 50px;
 }
 body{
 	background-color: #f0f5f5;
-	color: #c2d6d6;
+	color: #fff;
 	font-family: Helvetica, sans-serif;
 	text-align: center;
 }
@@ -12,4 +12,10 @@ img {
 	width: 300px;
 	display: inline-block;
 	margin: 20px;
+}
+hr {
+	width: 300px;
+}
+a {
+	color:#fff;
 }
