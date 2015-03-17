@@ -23,6 +23,8 @@ img {
 	display: inline-block;
 	margin: 20px;
 }
-a {
-	color:#c2d6d6;
+li {
+	display: inline;
 }
+ul { 
+	color:#abb6c2;
