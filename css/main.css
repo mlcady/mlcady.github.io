@@ -23,9 +23,20 @@ img {
 	display: inline-block;
 	margin: 20px;
 }
-li {
-	display: inline;
-}
 ul { 
-	color:#abb6c2;
-	padding:#c2d6d6;
+	list-style-type: none;
+	margin: 0;
+	padding: 0; 
+}
+li {
+	float: center;
+}
+a:link, a:visited {
+	display: block;
+	width: 700px;
+	color: #fff;
+	background-color: #c2acab;
+	text-align: center;
+	padding: 4px;
+	text-transform: uppercase;
+}
