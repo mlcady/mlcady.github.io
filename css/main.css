@@ -5,7 +5,7 @@ h1{ font-size: 30px;
 body{
 	background-color: #f0f5f5;
 	color: #c2d6d6;
-	font-family: "avant garde", sans-serif;
+	font-family: helvetica, sans-serif;
 	text-align: center;
 }
 img {
@@ -25,7 +25,7 @@ a:link, a:visited {
 	display: block;
 	width: 700px;
 	color: #fff;
-	background-color: #c2acab;
+	background-color: #abb6c2;
 	text-align: center;
 	padding: 4px;
 	text-transform: uppercase;
