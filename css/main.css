@@ -8,16 +8,6 @@ body{
 	font-family: "avant garde", sans-serif;
 	text-align: center;
 }
-hr{
-	color:#fff;
-	width: 500px;
-	height: 5px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	margin-right: auto;
-	margin-left: auto;
-	display: block;
-}
 img {
 	width: 300px;
 	display: inline-block;
@@ -29,7 +19,7 @@ ul {
 	padding: 0; 
 }
 li {
-	float: center;
+	display: inline;
 }
 a:link, a:visited {
 	display: block;
