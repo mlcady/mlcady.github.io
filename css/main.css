@@ -9,11 +9,13 @@ body{
 	text-align: center;
 }
 hr{
-	text-align: center;
 	color:#fff;
 	width: 500px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
 }
 img {
 	width: 300px;
