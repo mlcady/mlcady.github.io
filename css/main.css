@@ -25,4 +25,13 @@ a {
 	font-weight: 650;
 	text-decoration: none;
 }
+div {
+	box-sixing: border-box;
+	background-color: #fff;
+	margin: 2em;
+	padding: .5em
+}
+p{ 
+	text-align: left;
+}
 
