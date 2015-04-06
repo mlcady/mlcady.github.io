@@ -15,11 +15,11 @@ body {
 	font-family: Helvetica, sans-serif;
 }
 
-h2{
-	font-size: 1em;
-	color: gray;
-	border-box: 1px solid gray;
-	display: inline-block;
+#nav-links{ 
+	color: #fff;
+	background-color: #ee7c8e;
+	width: 700px;
+	text-align: right;
 }
 a {
 	text-decoration: none;
@@ -30,6 +30,9 @@ a {
 	display: inline-block;
 	margin: 0;
 
+}
+a:hover {
+	color: gray;
 }
 p { 
 	font-family: Helvetica;
