@@ -21,7 +21,7 @@ h2{
 	border-box: 1px solid gray;
 	display: inline-block;
 }
-nav a {
+a {
 	text-decoration: none;
 	padding: .5em;
 	color: #fff;
