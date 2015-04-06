@@ -1,8 +1,8 @@
 #logo{
-	width: 200px;
+	width: 300px;
 }
 #salon { 
-	width: 700px;
+	width: 900px;
 }	
 #about{
 	padding: 1em;
@@ -15,14 +15,14 @@ body {
 	font-family: Helvetica, sans-serif;
 }
 
-#nav-links{ 
+#nav-links { 
 	background-color: #ee7c8e;
-	width: 700px;
+	width: 900px;
 	text-align: right;
 }
 a {
 	text-decoration: none;
-	padding: .5em;
+	padding: .7em;
 	color: #fff;
 	background-color: #ee7c8e;
 	margin: 1em ;
@@ -38,9 +38,7 @@ p {
 	color: gray;
 }
 
-#book-here { 
-	font-family: Helvetica;
-	text-transform: uppercase;
-	text-decoration: none;
-	color: gray;
-}	
+#main-wrapper { 
+	font-size: 1em;
+	margin: 1em;
+}
