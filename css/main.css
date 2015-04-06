@@ -1,40 +1,7 @@
 * {margin:0;padding:0;box-sizing:border-box;}
-<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 
 body{
-	background-image: url(../images/piedmontpark.jpg);
 	background
 	font-family: Helvetica, sans-serif;
 	text-align: center;
 }
-img {
-<<<<<<< Updated upstream
-	width: 250px;
-	margin: 1.5em;
-	border-radius:250px;
-	padding: 2em ;
-}
-a {
-	color:#c2d6d6;
-	text-align: center;
-	margin: 1em;
-	font-size: 16px;
-	font-weight: 650;
-	text-decoration: none;
-}
-div {
-	box-sixing: border-box;
-	background-color: #fff;
-	margin: 2em;
-	padding: .5em
-}
-p{ 
-	text-align: left;
-}
-
-=======
-	width: 300px;
-	display: inline-block;
-	margin: 20px;
-}
->>>>>>> Stashed changes
