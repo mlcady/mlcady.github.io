@@ -1,3 +1,9 @@
+#logo{
+	width: 200px;
+}
+#salon { 
+	width: 480px;
+}	
 body {
 	font-size: 16px;
 	font-family: Helvetica, sans-serif;
@@ -12,13 +18,11 @@ h2{
 	display: inline-block;
 }
 nav a {
-	float: left;
 	text-decoration: none;
 	color: #ee7c8e;
 	margin: 1em ;
 	display: inline;
 }
-
 p { 
 	font-family: Helvetica;
 	color: gray;
