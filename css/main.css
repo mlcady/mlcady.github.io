@@ -12,3 +12,8 @@ body {
 	width: 200px;
 	margin: 1em;
 }
+nav {
+	float: left;
+	text-decoration: none;
+	
+}
