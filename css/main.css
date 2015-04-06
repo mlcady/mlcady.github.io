@@ -1,5 +1,5 @@
 body {
-	font-size: 18px;
+	font-size: 16px;
 	font-family: Helvetica, sans-serif;
 }
 
@@ -14,7 +14,18 @@ h2{
 nav a {
 	float: left;
 	text-decoration: none;
-	color: gray;
+	color: #ee7c8e;
 	margin: 1em ;
 	display: inline;
 }
+
+p { 
+	font-family: Helvetica;
+	color: gray;
+}
+#book-here { 
+	font-family: Helvetica;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: gray;
+}	
