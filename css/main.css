@@ -1,19 +1,42 @@
 body {
-	font-family: Helvetica;
+	font-size: 18px;
+	font-family: Helvetica, sans-serif;
+}
+
+h2{
+	font-size: 1.5em;
+	padding: .8em 0;
+	color: gray;
+	text-transform: uppercase;
+	border-box: 1px solid gray;
+	display: inline-block;
 }
 
 #logo {
 	float:left;
+	width:200px;
 	margin: 0 1em 0 1em;
 	padding: .5em;
 }
 
 #salon {
-	width: 200px;
+	width: 480px;
 	margin: 1em;
 }
-nav {
+nav a {
 	float: left;
 	text-decoration: none;
+	color: gray;
+	margin: 1em ;
+	display: inline;
+}
+
+#about { 
+	border-box: 1px solid gray;
+	padding: 2em;
+}	
+#booking {
+	border-box: 1px solid gray;
+	padding 2em;
 	
 }
