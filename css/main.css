@@ -17,7 +17,6 @@ body {
 
 #nav-links { 
 	background-color: #ee7c8e;
-	width: 900px;
 	text-align: right;
 }
 a {
@@ -45,3 +44,6 @@ div {
 footer {
 	background-color: #ee7c8e;
 }
+#socialmedia { 
+	text-align:right;
+}	
