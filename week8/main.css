@@ -1,0 +1,11 @@
+title {
+	color: #d3d3d3;
+	font-family: helvetica, sans-serif;
+}
+nav { 
+	background-color: #f0f5f5;
+	color: #c2d6d6;
+}
+a:hover{
+	color: gray;
+}
