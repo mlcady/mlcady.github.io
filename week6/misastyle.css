@@ -1,10 +1,49 @@
-#logo {
-	float:left;
-	margin: 0 1em 0 1em;
-	padding: .5em;
+#logo{
+	width: 300px;
+}
+#salon { 
+	width: 900px;
+}	
+#about{
+	padding: 1em;
+	margin: 0;
+	border-box: 2px solid;
 }
 
-#salon {
-	width: 200px;
+body {
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+}
+
+#nav-links { 
+	background-color: #ee7c8e;
+	text-align: right;
+}
+a {
+	text-decoration: none;
+	padding: 1em;
+	color: #fff;
+	background-color: #ee7c8e;
+	margin: 1em ;
+	display: inline-block;
+	margin: 0;
+
+}
+a:hover {
+	color: gray;
+}
+p { 
+	font-family: Helvetica;
+	color: gray;
+}
+
+div { 
+	font-size: 1em;
 	margin: 1em;
+}
+footer {
+	background-color: #ee7c8e;
+}
+#socialmedia { 
+	text-align:right;
 }
