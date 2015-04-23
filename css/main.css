@@ -1,47 +1,68 @@
-
+header { 
+	width: 99%;
+	margin: 0 auto;
+}
+header nav { 
+	color: #c2d6d6;
+	padding: 1rem 0;
+	margin: 0 auto;
+}
+header nav ul {
+	list-style-type: none;
+	width: 100%;
+	text-align: center;
+}
+header nav ul li{
+	font-size: 1.2rem;
+	text-align: center;
+	width: 100px;
+	display: inline-block;
+}
 h1 {
 	color: #757575;
-	font-family: 'Didot';
-	margin: 1em 5em 0 5em;
+	font-family: 'Didot', serif;
+	margin: 1.125rem 0 1.75rem 0;
 	font-size: 54px;
+	text-align: center;
 }
-span{
+h1 span{
 	color: #f9f1b5;
 	font-weight: 400;
 }
-nav { 
-	background-color: #f0f5f5;
-	color: #c2d6d6;
-	padding: 1em;
-	text-align: right;
+main { 
+	width: 65%;
+	margin: 1rem auto;
+	background-color: #eeeeee;
+	overflow: auto;
 }
-#navlinks{ 
-	margin: 1em;
+main div { 
+	float: left;
+	width: 50%;
+	background-color: #c2d6d6;
+	text-align: center;
 }
-a { 
+a {
 	text-decoration: none;
 	color: #c2d6d6;
 	font-family: 'Lora';
-	padding: .5em;
-	border-right: 2px solid #fff;
+	padding: .5em; 
 }
-a:hover{
-	color: #757575;
+nav a:hover{
+	background-color: #c2d6d6;
+	color: #fff;
 }
-p{
-	font-family: 'Lora', serif;
-	color: #757575;
-	width: 300px;
-	margin: 1em;
+#mainwrapper>img{
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 65%;
+	margin: 0 17.5% 0 17.5%;
 }
-#mainwrapper{ 
-	background-color: #dddad6;
-	width: 100%;
-	float:left;
-	margin: 1em;
+#mainwrapper p {
+	color: #fff;
+	width: 80%;
+	font-size: 1.275rem;
+	text-align: left;
+	margin: auto;
+	font-family: 'Raleway', sans-serif;'
 }
-img{
-	border-radius: 50%;
-	width: 200px;
-	float: left;
-}
+
