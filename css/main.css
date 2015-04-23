@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1 {
 	color: #757575;
 	font-family: 'Didot';
@@ -14,6 +15,50 @@ nav {
 	color: #c2d6d6;
 	padding: 1em;
 	text-align: right;
+=======
+header { 
+	width: 99%;
+	margin: 0 auto;
+}
+header nav { 
+	color: #c2d6d6;
+	padding: 1rem 0;
+	margin: 0 auto;
+}
+header nav ul {
+	list-style-type: none;
+	width: 100%;
+	text-align: center;
+}
+header nav ul li{
+	font-size: 1.2rem;
+	text-align: center;
+	width: 100px;
+	display: inline-block;
+}
+h1 {
+	color: #757575;
+	font-family: 'Didot', serif;
+	margin: 1.125rem 0 1.75rem 0;
+	font-size: 54px;
+	text-align: center;
+}
+h1 span{
+	color: #f9f1b5;
+	font-weight: 400;
+}
+main { 
+	width: 65%;
+	margin: 1rem auto;
+	background-color: #eeeeee;
+	overflow: auto;
+}
+main div { 
+	float: left;
+	width: 50%;
+	background-color: #c2d6d6;
+	text-align: center;
+>>>>>>> pr/5
 }
 #navlinks{ 
 	margin: 1em;
@@ -23,6 +68,7 @@ a {
 	text-decoration: none;
 	color: #c2d6d6;
 	font-family: 'Lora';
+<<<<<<< HEAD
 	padding: .5em;
 	border-right: 2px solid #fff;
 }
@@ -46,3 +92,26 @@ img{
 	width: 200px;
 	float: left;
 }
+=======
+	padding: .5em; 
+}
+nav a:hover{
+	background-color: #c2d6d6;
+	color: #fff;
+}
+#mainwrapper>img{
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 65%;
+	margin: 0 17.5% 0 17.5%;
+}
+#mainwrapper p {
+	color: #fff;
+	width: 80%;
+	font-size: 1.275rem;
+	text-align: left;
+	margin: auto;
+	font-family: 'Raleway', sans-serif;'
+}
+
+>>>>>>> pr/5
