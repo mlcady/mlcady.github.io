@@ -1,49 +1,48 @@
-#logo{
-	width: 300px;
+h1 {
+	color: #757575;
+	font-family: 'Didot';
+	margin: 1em 5em 0 5em;
+	font-size: 54px;
+	text-align: center;
 }
-#salon { 
-	width: 900px;
-}	
-#about{
+span{
+	color: #f9f1b5;
+	font-weight: 400;
+}
+nav { 
+	background-color: #f0f5f5;
+	color: #c2d6d6;
 	padding: 1em;
-	margin: 0;
-	border-box: 2px solid;
-}
-
-body {
-	font-size: 16px;
-	font-family: Helvetica, sans-serif;
-}
-
-#nav-links { 
-	background-color: #ee7c8e;
 	text-align: right;
 }
-a {
+#navlinks{ 
+	margin: 1em;
+	text-align: center;
+}
+a { 
 	text-decoration: none;
-	padding: 1em;
-	color: #fff;
-	background-color: #ee7c8e;
-	margin: 1em ;
-	display: inline-block;
-	margin: 0;
-
+	color: #c2d6d6;
+	font-family: 'Lora';
+	padding: .5em;
+	border-right: 2px solid #fff;
 }
-a:hover {
-	color: gray;
+a:hover{
+	color: #757575;
 }
-p { 
-	font-family: Helvetica;
-	color: gray;
-}
-
-div { 
-	font-size: 1em;
+p{
+	font-family: 'Lora', serif;
+	color: #757575;
+	width: 300px;
 	margin: 1em;
 }
-footer {
-	background-color: #ee7c8e;
+#mainwrapper{ 
+	background-color: #dddad6;
+	width: 100%;
+	float:left;
+	margin: 1em;
 }
-#socialmedia { 
-	text-align:right;
-}	
+img{
+	border-radius: 50%;
+	width: 200px;
+	float: left;
+}
