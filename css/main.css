@@ -1,24 +1,17 @@
-<<<<<<< HEAD
-h1 {
-	color: #757575;
-	font-family: 'Didot';
-	margin: 1em 5em 0 5em;
-	font-size: 54px;
-	text-align: center;
-}
-span{
-	color: #f9f1b5;
-	font-weight: 400;
-}
-nav { 
-	background-color: #f0f5f5;
-	color: #c2d6d6;
-	padding: 1em;
-	text-align: right;
-=======
 header { 
 	width: 99%;
 	margin: 0 auto;
+}
+h1 {
+	color: #757575;
+	font-family: 'Didot', serif;
+	margin: 1.125rem 0 1.75rem 0;
+	font-size: 54px;
+	text-align: center;
+}
+h1 span{
+	color: #f9f1b5;
+	font-weight: 400;
 }
 header nav { 
 	color: #c2d6d6;
@@ -36,82 +29,43 @@ header nav ul li{
 	width: 100px;
 	display: inline-block;
 }
-h1 {
-	color: #757575;
-	font-family: 'Didot', serif;
-	margin: 1.125rem 0 1.75rem 0;
-	font-size: 54px;
-	text-align: center;
-}
-h1 span{
-	color: #f9f1b5;
-	font-weight: 400;
-}
-main { 
-	width: 65%;
-	margin: 1rem auto;
-	background-color: #eeeeee;
-	overflow: auto;
-}
-main div { 
-	float: left;
-	width: 50%;
-	background-color: #c2d6d6;
-	text-align: center;
->>>>>>> pr/5
-}
-#navlinks{ 
-	margin: 1em;
-	text-align: center;
-}
-a { 
+nav a {
 	text-decoration: none;
 	color: #c2d6d6;
-	font-family: 'Lora';
-<<<<<<< HEAD
-	padding: .5em;
-	border-right: 2px solid #fff;
-}
-a:hover{
-	color: #757575;
-}
-p{
 	font-family: 'Lora', serif;
-	color: #757575;
-	width: 300px;
-	margin: 1em;
-}
-#mainwrapper{ 
-	background-color: #dddad6;
-	width: 100%;
-	float:left;
-	margin: 1em;
-}
-img{
-	border-radius: 50%;
-	width: 200px;
-	float: left;
-}
-=======
-	padding: .5em; 
+	padding: 1rem;
 }
 nav a:hover{
 	background-color: #c2d6d6;
 	color: #fff;
 }
+#mainwrapper{ 
+	width: 100%;
+	float:left;
+	margin: 1em;
+}
+main { 
+	width: 65%;
+	margin: 1rem auto;
+	overflow: auto;
+}
+main div { 
+	background-color: #c2d6d6;
+	float: left;
+	width: 50%;
+	text-align: center;
+}
 #mainwrapper>img{
 	background-repeat: no-repeat;
-	background-size: cover;
 	width: 65%;
 	margin: 0 17.5% 0 17.5%;
 }
 #mainwrapper p {
 	color: #fff;
+	background-color: #c2d6d6
 	width: 80%;
 	font-size: 1.275rem;
 	text-align: left;
 	margin: auto;
-	font-family: 'Raleway', sans-serif;'
+	font-family: 'Lora', serif;'
 }
-
->>>>>>> pr/5
