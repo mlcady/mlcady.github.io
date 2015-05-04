@@ -50,7 +50,6 @@ nav a:hover{
 main { 
 	width: 65%;
 	margin: 1rem auto;
-	overflow: auto;
 }
 main div { 
 	background-color: #c2d6d6;
@@ -70,7 +69,7 @@ main div {
 	font-size: 1em;
 	text-align: left;
 	margin: auto;
-	font-family: 'Lora', serif;'
+	font-family: 'Lora', serif;
 }
 #projectmain>div{
 	width: 33%;
@@ -82,6 +81,13 @@ a {
 #about>img { 
 	width: 70%;
 	border-radius: 50%;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
 }
 @media only and (max-width: 768px) {
 
