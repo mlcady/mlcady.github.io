@@ -1,3 +1,6 @@
+body {
+	font-size: 16px;
+}
 header { 
 	width: 99%;
 	margin: 0 auto;
@@ -5,8 +8,8 @@ header {
 h1 {
 	color: #757575;
 	font-family: 'Didot', serif;
-	margin: 1.125rem 0 1.75rem 0;
-	font-size: 54px;
+	margin: 1.125rem 0 1.5rem 0;
+	font-size: 3em;
 	text-align: center;
 }
 h1 span{
@@ -24,7 +27,7 @@ header nav ul {
 	text-align: center;
 }
 header nav ul li{
-	font-size: 1.2rem;
+	font-size: 1em;
 	text-align: center;
 	width: 100px;
 	display: inline-block;
@@ -64,7 +67,22 @@ main div {
 	color: #fff;
 	background-color: #c2d6d6
 	width: 80%;
-	font-size: 1.275rem;
+	font-size: 1em;
 	text-align: left;
 	margin: auto;
 	font-family: 'Lora', serif;'
+}
+#projectmain>div{
+	width: 33%;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+#about>img { 
+	width: 70%;
+	border-radius: 50%;
+}
+@media only and (max-width: 768px) {
+
+}	
