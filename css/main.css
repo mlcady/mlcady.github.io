@@ -1,8 +1,20 @@
+* { box-sizing:border-box; }
 body {
 	font-size: 16px;
 }
+main { 
+	width: 65%;
+	margin: 1rem auto;
+}
+main div { 
+	background-color: #c2d6d6;
+	float: left;
+	padding:2em;
+	width: 50%;
+	text-align: center;
+}
 header { 
-	width: 99%;
+	width: 100%;
 	margin: 0 auto;
 }
 h1 {
@@ -16,6 +28,7 @@ h1 span{
 	color: #f9f1b5;
 	font-weight: 400;
 }
+p { line-height:1.2em; }
 header nav { 
 	color: #c2d6d6;
 	padding: 1rem 0;
@@ -32,6 +45,10 @@ header nav ul li{
 	width: 100px;
 	display: inline-block;
 }
+a {
+	text-decoration: none;
+	color: #fff;
+}
 nav a {
 	text-decoration: none;
 	color: #c2d6d6;
@@ -44,18 +61,6 @@ nav a:hover{
 }
 #mainwrapper{ 
 	width: 100%;
-	float:left;
-	margin: 1em;
-}
-main { 
-	width: 65%;
-	margin: 1rem auto;
-}
-main div { 
-	background-color: #c2d6d6;
-	float: left;
-	width: 50%;
-	text-align: center;
 }
 #mainwrapper>img{
 	background-repeat: no-repeat;
@@ -73,10 +78,6 @@ main div {
 }
 #projectmain>div{
 	width: 33%;
-}
-a {
-	text-decoration: none;
-	color: #fff;
 }
 #about>img { 
 	width: 70%;
