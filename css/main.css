@@ -3,7 +3,6 @@ body {
 	font-size: 16px;
 }
 main { 
-	width: 65%;
 	margin: 1rem auto;
 }
 main div { 
@@ -60,11 +59,12 @@ nav a:hover{
 	color: #fff;
 }
 #mainwrapper{ 
-	width: 100%;
+	max-width:1200px;
+	margin:auto;
 }
 #mainwrapper>img{
 	background-repeat: no-repeat;
-	width: 65%;
+	width: 100%;
 	margin: 0 17.5% 0 17.5%;
 }
 #mainwrapper p {
