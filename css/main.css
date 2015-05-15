@@ -113,6 +113,12 @@ footer {
 	margin: auto;
 	padding: 2em;
 }
+footer li {
+	color:#fff;
+	float:left;
+	font-size:3em;
+	margin:0 1em;
+}
 @media only and (max-width: 768px) {
 
 }	
